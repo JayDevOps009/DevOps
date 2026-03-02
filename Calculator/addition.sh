@@ -4,11 +4,11 @@
 echo "Enter first number:"
 read a
 
-echo "Enter second number:"
-read b
+echo "Enter Third number:"
+read c
 
 # Perform addition
-sum=$((a + b))
+sum=$((a + c))
 
 # Display result
 echo "Sum is: $sum"
