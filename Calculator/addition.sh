@@ -7,11 +7,8 @@ read a
 echo "Enter second number:"
 read b
 
-echo "Enter Third number:"
-read c
-
 # Perform addition
-sum=$((a + b + c))
+sum=$((a + b))
 
 # Display result
 echo "Sum is: $sum"
