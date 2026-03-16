@@ -2,11 +2,11 @@
 
 # Read two numbers
 echo "Enter first number:"
-read a
-
+#read a
+a=$1
 echo "Enter Third number:"
-read c
-
+#read c
+c=$2
 # Perform addition
 sum=$((a + c))
 
